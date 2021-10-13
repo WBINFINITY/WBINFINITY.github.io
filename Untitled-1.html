@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>William</title> 
+    <style>
+        
+        body{
+            font-size: 10px;
+            font-family: "Lato", Arial, sans-sarif;
+        }
+        
+
+        h1{
+            font-size: 80px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%)
+            
+            
+        }
+
+       
+        
+        section{
+            width: 100%;
+            height: 100vh;
+            color: #fff;    
+            background: linear-gradient(45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB );
+            background-size: 400% 400%;
+            position: relative;
+            animation: change 5s ease-in-out infinite;
+
+            
+        }
+
+
+        a{
+            
+            display: inline-block;
+            padding: 12px 36px;
+            margin: 30px 0;
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 20px;
+            letter-spacing: 2px;
+            border-radius: 40px;
+            background: linear-gradient(90deg, #0162c8, #55e7fc);
+            
+            
+            
+        
+        }
+        a:nth-child(2){
+            
+            background: linear-gradient(90deg,#755bea,#ff72c0);
+        }
+        #container{
+            position:fixed;
+            left: 41%;
+            top:65%;
+
+        }
+
+        @keyframes change {
+            0%{
+                background-position: top;
+            }
+            25%{
+                background-position: left;
+            }
+            50%{
+                background-position: center;
+            }
+            75%{
+                background-position: right;
+            }
+            100%{
+                background-position: top;
+            }
+        
+        }
+
+         * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+         *{
+             margin: 0;
+             padding: 0;
+             font-family: 'poppins', sans-serif;
+         }
+            
+    
+    </style>
+  
+</head>
+<body>
+     
+    <section>
+         <h1>MY PORTFOLIO</h1>
+        <div id="container">
+            <a href="https://youtu.be/GrVWF91zCGU">Blue pill</a>
+            <a href="https://youtu.be/AQ5ZRB9oWRw">Red pill</a>
+    
+        
+        </div>
+    
+        
+    
+         
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </section>
+
+    
+</body>
+</html>
